@@ -2,14 +2,14 @@
 
 Some families in my country (Belgium) are making small presents ("peanuts") during christmas eve celebration. Because some families car be rather large with dozen of members, it poses a scaling and budget issue for everyone to purchase a gift for everyone else. 
 
-Indeed the amount of individual gifts for a family of $n$ members is the simple quadradic function: $n*(n-1)$. If that's only 12 gifts for a family of 4, that's 132 gifts for a family of 12.
+Indeed the amount of individual gifts for a family of $n$ members is the simple quadratic function: $n*(n-1)$. If that's only 12 gifts for a family of 4, that's 132 gifts for a family of 12.
 
-To make this problem more scalable, familes are making a random draw for who makes a gift to who. While this is fun and entertaining, it is much more efficient to do it in pythonic way.
+To make this problem more scalable, families are making a random draw for who makes a gift to who. While this is fun and entertaining, it is much more efficient to do it in pythonic way.
 
 The purpose of this program is to:
 * list a number of family members
 * randomly selecting who makes a gift to who 
-* accomodate some constraints (for example my wife and I won't make gifts to each other, we favour others during this family celebration)
+* accommodate some constraints (for example my wife and I won't make gifts to each other, we favour others during this family celebration)
 
 # Getting started
 
@@ -29,7 +29,7 @@ Update the file `draw.py` to add your own data, only two lines need to be edited
 
 1. The family members
 
-Say the familiy is composed of 6 members, edit this like with your own family members like so:
+Say the family is composed of 6 members, edit this like with your own family members like so:
 
 ````py
 p.add_members(['Manu', 'Barbara', 'Cyril', 'Justin', 'Mamy', 'Olivia'])
